@@ -535,7 +535,7 @@ if __name__ == "__main__":
         
     # result = run(call_fresh(lambda res: res_query(list1, list2, res)), n=1)
     
-    result = run(call_fresh(lambda res: res_query(list1, list2, res))) # RecursionError... why?
+    result = run(call_fresh(lambda res: res_query(list1, list2, res)))
 
     for res in result:
         subst, _ = res
